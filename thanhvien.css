@@ -1,0 +1,158 @@
+#main-content{
+	display: flex;
+	min-height: 500px;
+}
+#content{
+	flex-basis: 65%;
+	text-align: center;
+	background-color: rgb(137, 192, 231);
+	margin-top: 30px;
+}
+#sidebar{
+	flex-basis: 35%;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: 5px;
+	background: rgb(132, 147, 220);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #838896;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+font: 100%/125% “Times New Roman”, sans-serif;
+margin-right: 0;
+margin-left: 0;
+padding: 0px;
+background-color: skyblue;
+}
+	#wrapper{
+		margin: 10px;
+		padding: 0px;
+		width: 100%;
+		border-radius: 8px;
+		padding-bottom: 200px;
+	}
+	#header {
+		background-color: #0c45ee;
+		border-radius: 10px;
+		height: 100px;
+		width: auto;
+		margin-bottom: 20px;
+
+}
+	#header p{
+		color: white;
+		font-family: Arial;
+		font-size: 3rem;
+		text-align: center;
+		padding-top: 40px;
+		font-weight: bold;
+		}
+
+	#footer {
+		text-align: center;
+		border-radius: 6px;
+		background-color: #838896;
+		}
+	#left ul{
+	 	background-color: #006699;
+		width: 80%;
+		padding-top: 7;
+		padding-bottom: 7;
+		margin: 0;
+		padding-left: 0;
+		list-style-type: none;
+		border-radius: 10px;
+		}
+	#left li a{
+		
+    	display: inline-block;
+    	color: white;
+    	padding-top: 10;
+		padding-bottom: 10;
+		padding-left: 10;
+		text-decoration: none;
+		font-weight: bold;
+    }
+
+	#left li a:hover:not(.active){
+		background-color:#99CCCC ;
+		color: rgb(28, 28, 141);
+		border-radius: 8px;
+		}
+
+	#left 
+		li a.active{
+		background-color: white;
+		color: white;
+		 border-radius: 8px;
+		cursor: auto;
+		}
+	.box {
+		float: left;
+		width: 140;
+		height: 100px;
+		border-radius: 8px;
+		background-color: rgba(238, 5, 5, 0);
+		}
+	.box img{
+		margin-left: 20px;
+		z-index: 999;
+		cursor: progress;
+		}
+	 ul#menu {
+	 	text-align: center;
+		display: flex;
+    	background: #241979;
+    	height: 30px;
+    	border-radius: 8px;
+    	padding-top: 5;
+    	padding-bottom: 5;
+    	margin: 0;
+    	padding-left: 470px;
+    	list-style-type: none;
+	}
+
+	#menu li a{
+		padding: 5px 10px;
+    	display: block;
+    	color: white;
+	}
+	#menu li a:hover:not(.active){
+		background-color: #99CCCC;
+		color: white;
+		border-radius: 8px;
+	}
+	#menu li a.active{
+		background-color: ;
+		display: block;
+    	color: white;
+		border-radius: 8px;
+		cursor: auto;
+	}
+	table img {
+		height:200px;
+		width: 200px;
+		padding-left: 10px;
+	}
+
+
